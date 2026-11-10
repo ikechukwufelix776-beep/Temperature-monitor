@@ -1,52 +1,64 @@
-🌡️ Temperature Monitor and Alarm Checker.
+Temperature Monitor and Alarm Checker
 
-Project Overview
+What it does:
 
-The Temperature Monitor and Alarm Checker is a Python program designed to monitor the temperature of a machine and detect possible overheating.
+This is a Python program that monitors five temperature readings from a machine. It calculates the highest, lowest and average temperatures and warns the user when a reading exceeds the safe temperature limit.
 
-The program collects five temperature readings from the user, stores them in a list, and calculates the highest, lowest, and average temperatures.
+How to run it:
 
-It also checks whether any reading exceeds the safe temperature limit and displays a warning when necessary.
+Install Python 3, then run:
 
-Features
-	•	Collects five temperature readings.
-	•	Stores readings in a Python list.
-	•	Calculates the highest temperature.
-	•	Calculates the lowest temperature.
-	•	Calculates the average temperature.
-	•	Alerts users when the temperature exceeds the safe limit.
+python Temperature_monitor.py
 
-My Special Feature
+Sample output:
 
-I added a Temperature Trend Detector.
+Enter the safe temperature limit: 80
 
-This feature identifies whether the machine’s temperature is:
-	•	Increasing consistently.
-	•	Decreasing consistently.
-	•	Fluctuating or remaining stable.
+Enter temperature reading 1: 40
+Enter temperature reading 2: 50
+Enter temperature reading 3: 60
+Enter temperature reading 4: 75
+Enter temperature reading 5: 90
 
-This helps users identify possible overheating trends.
+----- TEMPERATURE REPORT -----
 
-Programming Language
+All readings: [40, 50, 60, 75, 90]
+Highest temperature: 90
+Lowest temperature: 40
+Average temperature: 63.0
 
-Python 3
+WARNING! Machine temperature is above the safe limit.
 
-Python Concepts Used
-	•	Functions
-	•	Lists
-	•	Loops
-	•	Conditional statements
-	•	User input
-	•	Float conversion
-	•	Exception handling
+Temperature trend: Increasing!
 
-How to Run
-	1.	Install Python.
-	2.	Download this repository.
-	3.	Open the Python file in VS Code.
-	4.	Run the program.
-	5.	Enter the safe temperature limit and five temperature readings.
+Temperature monitoring completed.
 
-Project Purpose
+My own twist:
 
-This project demonstrates my understanding of Python programming and how programming can be used to monitor machine temperatures.
+I added a Temperature Trend Detector. This feature identifies whether the machine’s temperature is consistently increasing, decreasing, or fluctuating. It helps users notice possible overheating trends.
+
+What I learned:
+
+I learned how to use Python functions, lists, loops and conditional statements. I also learned how to handle invalid user input using exception handling.
+
+Author:
+
+Anwankuo Christopher Marvin 
+ND1 Mechatronics Engineering
+Yaba College of Technology (YabaTech).
+
+
+
+What happens when a machine starts getting hotter than its safe operating temperature? 🌡️
+
+For my Python programming project, I chose to build a Temperature Monitor and Alarm Checker.
+
+My program collects five temperature readings, calculates the highest, lowest and average temperatures, and alerts the user whenever the safe temperature limit is exceeded.
+
+One challenging part was making sure the program could handle incorrect inputs. I solved this by using Python’s exception handling to prevent the program from crashing when someone enters something other than a number.
+
+I also added my own feature: a Temperature Trend Detector. It identifies whether the temperature is increasing, decreasing or fluctuating.
+
+Working on this project helped me understand how functions, lists, loops and conditional statements work together to solve practical problems.
+
+As an ND1 Mechatronics Engineering student at YabaTech, I’m excited to keep learning, building and improving my programming skills.
