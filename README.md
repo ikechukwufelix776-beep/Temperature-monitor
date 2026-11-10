@@ -1,4 +1,4 @@
-🌡️ Temperature Monitor and Alarm Checker
+🌡️ Temperature Monitor and Alarm Checker.
 
 Project Overview
 
